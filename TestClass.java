@@ -15,8 +15,8 @@ public class TestClass {
 
 			driver.get(baseURL);
 			//login to dev-beta portal
-			driver.findElement(By.name("username")).sendKeys("jackie+caregiver-alpha2@lifepod.com");
-			driver.findElement(By.name("password")).sendKeys("myAlpha2!");
+			driver.findElement(By.name("username")).sendKeys("millie+caregiver@lifepod.com");
+			driver.findElement(By.name("password")).sendKeys("xyz");
 			Thread.sleep(2000);
 			
 			
